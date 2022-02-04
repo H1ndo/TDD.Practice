@@ -8,4 +8,12 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <NoStdLib>true</NoStdLib>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Processor\" />
+    <None Remove="Domain\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Processor\" />
+    <Folder Include="Domain\" />
+  </ItemGroup>
 </Project>

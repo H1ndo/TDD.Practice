@@ -4,6 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
 
     <IsPackable>false</IsPackable>
+    <RootNamespace>DeskBooker.Core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,4 +14,13 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Remove="Processor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Processor\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\DeskBooker.Core\DeskBooker.Core.csproj" />
+  </ItemGroup>
 </Project>
