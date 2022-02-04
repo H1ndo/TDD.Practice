@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.17
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.Web", "src\DeskBooker.Web\DeskBooker.Web.csproj", "{8B4F2BDB-6E4B-41A7-B4A0-0CE1A4150791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.Core", "src\DeskBooker.Core\DeskBooker.Core.csproj", "{EEC4DECA-1536-4639-83DC-FC6517FDBEB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.DataAccess", "src\DeskBooker.DataAccess\DeskBooker.DataAccess.csproj", "{4BB752F6-1227-4E32-835A-8F58EE699767}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CEED0672-D02C-44AC-B9B5-9BFDFCA935BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F8BF10B2-453F-4D46-9AE7-458562D4B565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.Core.Tests", "tests\DeskBooker.Core.Tests\DeskBooker.Core.Tests.csproj", "{01B9B1B0-020D-426A-B765-F9D71431FBED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.DataAccess.Tests", "tests\DeskBooker.DataAccess.Tests\DeskBooker.DataAccess.Tests.csproj", "{5481784F-06BE-4CCA-9359-764E8336B68F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeskBooker.Web.Tests", "tests\DeskBooker.Web.Tests\DeskBooker.Web.Tests.csproj", "{61DCB5BC-77BF-4880-B01F-618440AE7BEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B4F2BDB-6E4B-41A7-B4A0-0CE1A4150791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B4F2BDB-6E4B-41A7-B4A0-0CE1A4150791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B4F2BDB-6E4B-41A7-B4A0-0CE1A4150791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B4F2BDB-6E4B-41A7-B4A0-0CE1A4150791}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC4DECA-1536-4639-83DC-FC6517FDBEB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC4DECA-1536-4639-83DC-FC6517FDBEB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC4DECA-1536-4639-83DC-FC6517FDBEB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC4DECA-1536-4639-83DC-FC6517FDBEB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB752F6-1227-4E32-835A-8F58EE699767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB752F6-1227-4E32-835A-8F58EE699767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB752F6-1227-4E32-835A-8F58EE699767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB752F6-1227-4E32-835A-8F58EE699767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01B9B1B0-020D-426A-B765-F9D71431FBED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01B9B1B0-020D-426A-B765-F9D71431FBED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01B9B1B0-020D-426A-B765-F9D71431FBED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01B9B1B0-020D-426A-B765-F9D71431FBED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5481784F-06BE-4CCA-9359-764E8336B68F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5481784F-06BE-4CCA-9359-764E8336B68F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5481784F-06BE-4CCA-9359-764E8336B68F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5481784F-06BE-4CCA-9359-764E8336B68F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61DCB5BC-77BF-4880-B01F-618440AE7BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61DCB5BC-77BF-4880-B01F-618440AE7BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61DCB5BC-77BF-4880-B01F-618440AE7BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61DCB5BC-77BF-4880-B01F-618440AE7BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30CB7065-EB44-4723-8E9B-A009521970DF}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEC4DECA-1536-4639-83DC-FC6517FDBEB3} = {CEED0672-D02C-44AC-B9B5-9BFDFCA935BF}
+		{4BB752F6-1227-4E32-835A-8F58EE699767} = {CEED0672-D02C-44AC-B9B5-9BFDFCA935BF}
+		{8B4F2BDB-6E4B-41A7-B4A0-0CE1A4150791} = {CEED0672-D02C-44AC-B9B5-9BFDFCA935BF}
+		{01B9B1B0-020D-426A-B765-F9D71431FBED} = {F8BF10B2-453F-4D46-9AE7-458562D4B565}
+		{5481784F-06BE-4CCA-9359-764E8336B68F} = {F8BF10B2-453F-4D46-9AE7-458562D4B565}
+		{61DCB5BC-77BF-4880-B01F-618440AE7BEE} = {F8BF10B2-453F-4D46-9AE7-458562D4B565}
+	EndGlobalSection
+EndGlobal
