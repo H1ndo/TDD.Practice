@@ -11,9 +11,11 @@
   <ItemGroup>
     <None Remove="Processor\" />
     <None Remove="Domain\" />
+    <None Remove="DataInterface\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Processor\" />
     <Folder Include="Domain\" />
+    <Folder Include="DataInterface\" />
   </ItemGroup>
 </Project>
